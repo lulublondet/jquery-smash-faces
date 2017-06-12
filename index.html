@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smash Faces</title>
+    <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href ="assets/img/laboratoria.png">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+         <div class="col-md-12"> 
+            Smash Faces
+            <hr>
+        </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Bienvenida al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. <br>Tienes 5 oportunidades antes de perder 1 punto y seguir adelante</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <form class="col-md-6">
+              <label for="sede">Elige tu sede: </label>
+              <select name="" id="sedes">
+                <option selected hidden></option>
+                <option value="peru" id="peru">Perú</option>
+                <option value="mexico" id="mexico">México</option>
+              </select>
+          </form>
+          <div class="col-md-6">
+              <span>Puntos:</span>
+              <span id="puntaje"></span>
+          </div>
+        </div>
+      </div>
+     </section> 
+     <section id='main'>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4"> 
+            <img src="" alt="" class="coder">
+              </div>
+            <div class="col-md-8">
+              <form id="name-coder">
+                <label for="name" class="white">Ingresa su nombre:</label>
+                <input type="text" id="name">
+                <input type="submit" value="comprueba" id="comprueba">  
+              </form>
+            </div>        
+          </div>
+        </div> 
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>  
+      !window.jQuery && document.write("<script src='assets/js/vendor/jquery-3.2.1.min.js'><\/script>")
+    </script>
+    <script src="assets/js/sedes.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

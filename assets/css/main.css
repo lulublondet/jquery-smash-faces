@@ -1,0 +1,33 @@
+
+.white {
+	color:white;
+}
+
+
+
+#main .row .col-md-4{
+padding-right: 0;
+}
+
+#main .row .col-md-8{
+	padding-left: 0;
+	background-color: #333;
+}
+
+
+.coder{
+	   width: auto;
+	   height: 300px; 
+     display: none;
+	  }
+
+#name-coder{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	height: 300px;
+	}
+
+
